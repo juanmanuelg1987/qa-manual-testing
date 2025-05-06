@@ -14,4 +14,4 @@ Demostrar conocimientos y habilidades en QA Manual, incluyendo documentación cl
 
 ## Autor
 
-Juan Mnuel Garcia - Estudiante de Desarrollo de Software
+Juan Manuel Garcia - Estudiante de Desarrollo de Software
