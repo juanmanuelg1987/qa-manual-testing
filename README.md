@@ -14,4 +14,4 @@ Demostrar conocimientos y habilidades en QA Manual, incluyendo documentación cl
 
 ## Autor
 
-[Tu nombre] - Estudiante de Desarrollo de Software
+Juan Mnuel Garcia - Estudiante de Desarrollo de Software
