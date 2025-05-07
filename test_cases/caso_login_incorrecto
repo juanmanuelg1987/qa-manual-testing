@@ -1,0 +1,56 @@
+# Caso de Prueba: Intento de Inicio de Sesión Inválido
+
+**ID del Caso de Prueba:** TC_LGN_002
+
+**Título:** Intento de inicio de sesión con credenciales incorrectas y validación de mensajes de error.
+
+**Descripción:** Verificar el comportamiento del sistema y la precisión de los mensajes de error al intentar iniciar sesión con diferentes combinaciones de credenciales inválidas.
+
+**Precondiciones:**
+
+* La página de inicio de sesión debe estar accesible.
+
+**Pasos:**
+
+1.  Navegar a la página de inicio de sesión.
+
+2.  **Prueba 1: Usuario incorrecto, Contraseña correcta**
+    * Ingresar un **nombre de usuario** inexistente (ejemplo: `usuario_fantasma`) en el campo correspondiente.
+    * Ingresar una **contraseña** válida conocida (ejemplo: `contrasena_valida`) en el campo correspondiente.
+    * Hacer clic en el botón "Iniciar Sesión" o su equivalente.
+
+3.  **Prueba 2: Usuario correcto, Contraseña incorrecta**
+    * Ingresar un **nombre de usuario** válido conocido (ejemplo: `usuario_prueba`) en el campo correspondiente.
+    * Ingresar una **contraseña** incorrecta (ejemplo: `clave_erronea`) en el campo correspondiente.
+    * Hacer clic en el botón "Iniciar Sesión" o su equivalente.
+
+4.  **Prueba 3: Ambos campos incorrectos**
+    * Ingresar un **nombre de usuario** inexistente (ejemplo: `usuario_falso`) en el campo correspondiente.
+    * Ingresar una **contraseña** incorrecta (ejemplo: `clave_invalida`) en el campo correspondiente.
+    * Hacer clic en el botón "Iniciar Sesión" o su equivalente.
+
+5.  **Prueba 4: Campos vacíos**
+    * Dejar el campo de **nombre de usuario** vacío.
+    * Dejar el campo de **contraseña** vacío.
+    * Hacer clic en el botón "Iniciar Sesión" o su equivalente.
+
+**Resultados Esperados:**
+
+* **Prueba 1:** El sistema debe mostrar un mensaje de error específico indicando que el usuario no existe.
+* **Prueba 2:** El sistema debe mostrar un mensaje de error específico indicando que la contraseña es incorrecta.
+* **Prueba 3:** El sistema debe mostrar un mensaje de error indicando que las credenciales son inválidas (puede ser genérico o más específico).
+* **Prueba 4:** El sistema debe mostrar mensajes de error indicando que ambos campos son requeridos.
+
+**Resultados Obtenidos:**
+
+* **Prueba 1:** El sistema mostró el mensaje: "El usuario `usuario_fantasma` no se encuentra en nuestros registros."
+* **Prueba 2:** El sistema mostró el mensaje: "Contraseña incorrecta. Por favor, inténtelo de nuevo."
+* **Prueba 3:** El sistema mostró el mensaje: "Nombre de usuario o contraseña inválidos."
+* **Prueba 4:** El sistema mostró los mensajes: "El campo 'Nombre de usuario' es obligatorio." y "El campo 'Contraseña' es obligatorio."
+
+**Estado:**
+
+* **Prueba 1:** PASSED
+* **Prueba 2:** PASSED
+* **Prueba 3:** PASSED
+* **Prueba 4:** PASSED
