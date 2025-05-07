@@ -1,17 +1,27 @@
-# QA Manual - Casos de prueba y reporte de errores
+# 🧪 QA Manual Testing – Proyecto de Pruebas Manuales
 
-Este repositorio contiene ejemplos de QA Manual para una aplicación ficticia. Incluye casos de prueba documentados, reportes de errores simulados y una estructura pensada para organizar el trabajo de testing manual.
+📌 **Descripción general del proyecto**  
+Este repositorio contiene un conjunto de pruebas manuales documentadas para simular un proceso real de control de calidad (QA) en aplicaciones web. Se incluyen casos de prueba, reportes de errores y estructura organizada como en un entorno profesional.
 
-## Estructura del proyecto
+---
 
-- **test_cases/**: Casos de prueba en formato Markdown.
-- **bug_reports/**: Reportes de errores documentados paso a paso.
-- **screenshots/**: Capturas de pantalla (si las pruebas lo requieren).
+🧪 **Objetivo de las pruebas**  
+- Validar el correcto funcionamiento de funciones clave (por ejemplo, login de usuario).
+- Documentar comportamientos esperados y errores encontrados.
+- Simular un entorno de trabajo QA utilizando archivos Markdown y herramientas como GitHub Issues.
 
-## Objetivo
+---
 
-Demostrar conocimientos y habilidades en QA Manual, incluyendo documentación clara, detección de errores, y buenas prácticas de pruebas funcionales.
+🗂️ **Estructura de carpetas**  
 
-## Autor
-
-Juan Manuel Garcia - Estudiante de Desarrollo de Software
+qa-manual-testing/
+│
+├── casos-prueba/
+│ ├── login-correcto.md
+│ └── login-invalido.md
+│
+├── reportes-errores/
+│ └── bug_login_boton_sin_respuesta.md
+│
+├── README.md
+└── LICENSE
