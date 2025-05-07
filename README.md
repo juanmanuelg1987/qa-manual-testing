@@ -14,14 +14,13 @@ Este repositorio contiene un conjunto de pruebas manuales documentadas para simu
 
 🗂️ **Estructura de carpetas**  
 
-qa-manual-testing/
-│
+-qa-manual-testing/
 ├── casos-prueba/
-│ ├── login-correcto.md
-│ └── login-invalido.md
+│   ├── login-correcto.md
+│   └── login-invalido.md
 │
 ├── reportes-errores/
-│ └── bug_login_boton_sin_respuesta.md
+│   └── bug_login_boton_sin_respuesta.md
 │
 ├── README.md
 └── LICENSE
